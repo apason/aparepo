@@ -8,8 +8,7 @@ with following content:
 ```
 [aparepo]
 prioority = 1000
-location = /var/local/aparepo
-#layman-type = git
+location = /usr/local/aparepo
 sync-type = git
 auto-sync = yes
 sync-uri = git://github.com/apason/aparepo.git
