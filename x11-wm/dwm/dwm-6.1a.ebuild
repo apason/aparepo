@@ -2,12 +2,11 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
-inherit savedconfig toolchain-funcs
+inherit savedconfig toolchain-funcs git-r3
 
 DESCRIPTION="a dynamic window manager for X11"
-HOMEPAGE="https://dwm.suckless.org/"
-SRC_URI="https://dl.suckless.org/${PN}/${P}.tar.gz"
-
+HOMEPAGE="https://github.com/apason/dwm"
+SRC_URI="https://github.com/apason/dwm.git"
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86 ~x86-fbsd"
