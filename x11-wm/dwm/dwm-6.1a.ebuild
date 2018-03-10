@@ -2,6 +2,9 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
+
+EGIT_REPO_URI="https://github.com/apason/dwm.git"
+
 inherit savedconfig toolchain-funcs git-r3
 
 DESCRIPTION="a dynamic window manager for X11"
@@ -42,6 +45,7 @@ src_prepare() {
                 Makefile || die
 
         restore_config config.h
+
 }
 
 src_compile() {
