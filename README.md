@@ -1,7 +1,7 @@
 # aparepo
 repository for gentoo linux
 
-##installation##
+## installation
 Just create file under /etc/portage/repos.conf/aparepo.conf
 with following content:
 
