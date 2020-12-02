@@ -23,7 +23,7 @@ RDEPEND="
 "
 DEPEND="
         ${RDEPEND}
-        xinerama? ( x11-proto/xineramaproto )
+        xinerama? ( x11-base/xorg-proto )
 "
 
 src_prepare() {
